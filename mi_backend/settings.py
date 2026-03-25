@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-gxcgu3_6gfp=_iv4*^(1wdudnh#mne3m57rxrrv_qtx-jwqc*@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -128,6 +127,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://mi-portfolio-six-sigma.vercel.app",
 ]
 
 REST_FRAMEWORK = {
